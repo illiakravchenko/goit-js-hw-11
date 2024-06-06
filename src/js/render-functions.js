@@ -12,22 +12,22 @@ function renderImage({
         <img src="${largeImageURL}" alt="${tags}">
       </a>
       <div>
-        <ul>
+        <ul class="cards-info">
           <li>
-            <p>likes:</p>
-            <p>${likes}</p>
+            <p class="cards-info-title">likes:</p>
+            <p class="cards-info-count">${likes}</p>
           </li>
           <li>
-            <p>views</p>
-            <p>${views}</p>
+            <p class="cards-info-title">views</p>
+            <p class="cards-info-count">${views}</p>
           </li>
           <li>
-            <p>comments</p>
-            <p>${comments}</p>
+            <p class="cards-info-title">comments</p>
+            <p class="cards-info-count">${comments}</p>
           </li>
           <li>
-            <p>downloads</p>
-            <p>${downloads}</p>
+            <p class="cards-info-title">downloads</p>
+            <p class="cards-info-count">${downloads}</p>
           </li>
         </ul>
       </div>
