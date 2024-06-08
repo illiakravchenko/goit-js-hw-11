@@ -61,6 +61,10 @@ function getQuery(event) {
     .catch(error => {
       console.log(error);
       hideLoader();
+      iziToast.error({
+        message: 'Something went wrong. Please try again later!',
+        position: 'topRight',
+      });
     });
   form.reset();
 }
